@@ -1,1 +1,6 @@
-{}
+{
+  "cssTheme": "",
+  "accentColor": "#7566e5",
+  "baseFontSize": 20,
+  "baseFontSizeAction": true
+}
