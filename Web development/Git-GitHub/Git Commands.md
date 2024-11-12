@@ -13,9 +13,10 @@
 5. ==`git log <file_name>`== : Show commit for a specific file.
 6. ==`git shortlog`== : It gives a summary of commits grouped by authors.
 #### Commit Playground :
-1. ==`git reset <commit id>`==  :  Moves the current branch to a specified commit, allowing you to unstage or remove changes from the history. 
+1. ==`git reset <commit id>`==  :  Moves the current branch to a specified commit, and all the changes are now unstaged, allowing you to stage them into one commit or remove changes from the history. 
 	*  All the changes are now unstaged, so to move to the previous state use  ==`git restore <file>`== .
-2. ==`git reset --hard <commit_id>`== : Moves to the previous commit. It is same as performing both git reset and restore.
+2. ==`git reset --hard <commit_id>`== : Moves to the specified commit id. It is same as performing both git reset and restore.
+3. ==`git rebase i <commit id>`== :  ==Note==
 #### Git Stash 
 * Stash means store (something) safely in a hidden or secret place.
 * `git stash` is a command that temporarily saves changes (tracked files) that you’ve made to your working directory but haven’t committed yet.
@@ -28,8 +29,9 @@
 6. ==`git stash drop stash@{index}`== : Deletes a specified stash.
 7. =="git stash clear "== : Clears the stash list.
 #### Git Branch
-A **branch** is essentially a pointer to a specific commit in the repository history. Branches allow you to work on different versions or features of a project independently, without affecting the main codebase.
-This allows you to keep code organized and merge it into the main branch only when it's ready.
+* A **branch** is essentially a pointer to a specific commit in the repository history. Branches allow you to work on different versions or features of a project independently, without affecting the main codebase.
+* This allows you to keep code organized and merge it into the main branch only when it's ready.
+* When a new branch is created, it contains all the commits from the main branch up to the point of creation along with changes from the working directory. 
 1. ==`git branch branch_name`== : Creates a new branch called `branch_name` from the current branch but does not switch to it.
 2. ==`git checkout branch_name`== : Switches to `branch_name`. This updates your working directory to reflect the branch's latest commit.
 3. ==`git checkout -b branch_name`== : Creates a new branch and immediately switches to it.
