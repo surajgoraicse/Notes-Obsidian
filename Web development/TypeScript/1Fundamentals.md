@@ -16,7 +16,7 @@ let name: string = "Alice";
 let isStudent: boolean = true;
 ```
 
-#### When types are not required ?
+#### When types are not recommended ?
 When values are assigned immediately then types are generally not recommended.
 ```
 const name = "Suraj";
