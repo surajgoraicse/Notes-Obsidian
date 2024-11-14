@@ -31,5 +31,13 @@ console.log(sq);
 
 #### void and never
 ```
-
+function consoleError(error : string):void{
+console.log(error)
+}
+```
+The `never` type represents values which are _never_ observed. In a return type, this means that the function ==`throws an exception or terminates`== execution of the program.
+```
+function fail(msg: string): never {
+throw new Error(msg);
+}
 ```

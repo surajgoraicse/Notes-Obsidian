@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TypeScript/2Functions.md",
+                "file": "TypeScript/3Object.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2Functions"
+              "title": "3Object"
             }
           }
         ]
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TypeScript/2Functions.md"
+                "file": "TypeScript/3Object.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 2Functions"
+              "title": "Outline of 3Object"
             }
           }
         ],
@@ -164,8 +164,9 @@
   },
   "active": "0d883442ee905c99",
   "lastOpenFiles": [
-    "TypeScript/1Fundamentals.md",
     "TypeScript/2Functions.md",
+    "TypeScript/3Object.md",
+    "TypeScript/1Fundamentals.md",
     "Welcome.md",
     "TypeScript",
     "Linux-Git-GitHub/Fundamentals.md",
