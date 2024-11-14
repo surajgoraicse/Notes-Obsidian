@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TypeScript/Fundamentals.md",
+                "file": "TypeScript/Functions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Fundamentals"
+              "title": "Functions"
             }
           }
         ]
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TypeScript/Fundamentals.md"
+                "file": "TypeScript/Functions.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Fundamentals"
+              "title": "Outline of Functions"
             }
           }
         ],
@@ -162,10 +162,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0d883442ee905c99",
+  "active": "cd491f99d75bb3fe",
   "lastOpenFiles": [
-    "Welcome.md",
     "TypeScript/Fundamentals.md",
+    "TypeScript/Functions.md",
+    "Welcome.md",
     "TypeScript",
     "Linux-Git-GitHub/Fundamentals.md",
     "Linux-Git-GitHub/Git Commands.md",
