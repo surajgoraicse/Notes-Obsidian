@@ -109,3 +109,35 @@ let newUser: User = {
 newUser.name = "suraj"
 newUser._id = "37493874" // not valid
 ```
+
+#### Union Types
+A **union type** allows a variable to hold more than one type.
+Syntax: `let variableName: Type1 | Type2 | Type3;`
+```
+let value: string | number; 
+value = "Hello"; // valid 
+value = 42; // also valid
+```
+Using complex types:
+```
+type Car = { make: string; model: string }; 
+type Bicycle = { brand: string; gearCount: number }; 
+
+function printVehicle(vehicle: Car | Bicycle) { 
+	if ("make" in vehicle) { 
+	console.log("Car make:", vehicle.make); 
+} else { 
+	console.log("Bicycle brand:", vehicle.brand); 
+} 
+}
+```
+
+**Using arrays**
+```
+const data: (number | string | boolean)[] = [21, 3, 23, "car", "bike"];
+
+// this is not valid statement (as this means either all numbers or all strings)
+const data: number[] | string[] = [21, 3, 23, "car", "bike"];
+
+const anyData: any[] = ["num" ,3434, false, null ,undefined];
+```
