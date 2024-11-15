@@ -1,3 +1,8 @@
+#### Syntax:
+```
+let user: {name: string , email: string, isPaid: boolean};
+```
+
 
 #### Parameters
 This is not a right way to define parameters.
@@ -28,9 +33,9 @@ Passing extra properties during the function call:
 ```
 const createCourse = ({title, price}) => {
 }
-createCourse({ title: "ReactJs", price: 3243 , duration : 23});
+createCourse({ title: "ReactJs", price: 3243 , duration : 23}); //error
 ```
-when passing an object it is working
+but it allows when an object is passed.
 ```
 const obj = { title: "ReactJs", price: 3243 , duration : 23}
 const createCourse = ({title, price}) => {
@@ -51,16 +56,3 @@ function createUser(): { name: string; age: number; email: string } {
 }
 ```
 
-#### Type Aliases 
-Creating a custom data type:
-```
-type User = {
-	name : string,
-	email: string,
-	isActive: boolean
-}
-type customData = string | number;
-
-function createUser(user : User){
-}
-```

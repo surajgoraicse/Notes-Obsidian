@@ -3,7 +3,7 @@ TypeScript is a development tool which helps to write better code.
 
 
 #### Types:
-1. Primitives : string , numbers and boolean.
+1. Primitives : string , number and boolean.
 2. Special Types : any, unknown, void, null, undefined, never.
 3. Complex Types : Arrays, Tuples.
 4. Object Types : `let user: { name: string; age: number } = { name: "Alice", age: 25 };`
@@ -36,3 +36,76 @@ value = 3434;
 console.log(value);
 ```
 
+#### void and never
+
+```
+function consoleError(error : string):void{
+console.log(error)
+}
+```
+
+The `never` type represents values which are _never_ observed. In a return type, this means that the function ==`throws an exception or terminates`== execution of the program.
+
+```
+function fail(msg: string): never {
+throw new Error(msg);
+}
+```
+
+#### Type Aliases 
+Creating a custom data type:
+```
+type User = {
+	name : string;
+	email: string;
+	isActive: boolean;
+}
+type customData = string | number;
+
+function createUser(user : User):void{
+}
+```
+
+```
+type StringOrNumber = string | number;
+let value: StringOrNumber; 
+value = "Hello"; // valid 
+value = 42; // also valid
+```
+
+##### Combining types: 
+`type newType = type1 & type2;`
+
+```
+type cardDate = {
+    cardDate: String
+}
+type cardDetails = {
+    cvv: number;
+    cardNumber: number;
+}
+type creditCard = cardDate & cardDetails & { isActive: true };
+```
+#### readonly and optional
+* If readonly value is an array then it will allow to push values into it.
+* 
+
+```
+type User = {
+    readonly _id: string;
+    name: string;
+    email: string;
+    isActive: boolean;
+    creditDetails?: string;
+}
+
+let newUser: User = {
+    _id : "3432",
+    name: "s",
+    email: "s@s.com",
+    isActive: false,
+//    creditDetails : "kdhfdhf"  // optional
+}
+newUser.name = "suraj"
+newUser._id = "37493874" // not valid
+```
