@@ -152,4 +152,25 @@ const anyData: any[] = ["num" ,3434, false, null ,undefined, {name : "Suraj"
 ##### Example:
 `let person: [string, number, boolean] = ["Alice", 25, true];`
 
+##### Destructuring tuples:
+```
+let point: [number, number] = [10, 20]; 
+let [x, y] = point; 
+console.log(x); // 10 
+console.log(y); // 20
+```
 
+##### Optional elements: 
+* Only the last element can be optional
+```
+let data: [string, number?] = ["Alice"];
+```
+
+##### Rest element:
+* Use the `...` syntax to allow variable-length elements of a specific type.
+```
+let list: [string, ...number[]] = ["Numbers", 1, 2, 3, 4];
+```
+
+##### Problems in tuples
+* tuples does not restrict the following methods `push()`, `pop()`, `shift()`, `unshift()`, and `splice()` .
