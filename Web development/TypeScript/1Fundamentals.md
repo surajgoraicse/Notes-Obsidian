@@ -107,18 +107,19 @@ let newUser: User = {
 //    creditDetails : "kdhfdhf"  // optional
 }
 newUser.name = "suraj"
-newUser._id = "37493874" // not valid
+newUser._id = "37493874" // will give error
 ```
 
 #### Union Types
 A **union type** allows a variable to hold more than one type.
+
 Syntax: `let variableName: Type1 | Type2 | Type3;`
 ```
 let value: string | number; 
 value = "Hello"; // valid 
 value = 42; // also valid
 ```
-Using complex types:
+union in type aliases:
 ```
 type Car = { make: string; model: string }; 
 type Bicycle = { brand: string; gearCount: number }; 
@@ -132,12 +133,23 @@ function printVehicle(vehicle: Car | Bicycle) {
 }
 ```
 
-**Using arrays**
+**unions in arrays**
 ```
 const data: (number | string | boolean)[] = [21, 3, 23, "car", "bike"];
 
 // this is not valid statement (as this means either all numbers or all strings)
 const data: number[] | string[] = [21, 3, 23, "car", "bike"];
 
-const anyData: any[] = ["num" ,3434, false, null ,undefined];
+const anyData: any[] = ["num" ,3434, false, null ,undefined, {name : "Suraj"
+}];
 ```
+
+#### Tuples
+* A **tuple** in TypeScript is a special kind of array with a fixed number of elements, where each element can have a specific type. 
+* Unlike regular arrays, which can contain any number of elements of the same or mixed types, a tuple has a predetermined structure.
+##### Syntax:
+`let tupleName: [Type1, Type2, Type3, ...] = [value1, value2, value3, ...];`
+##### Example:
+`let person: [string, number, boolean] = ["Alice", 25, true];`
+
+
