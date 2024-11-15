@@ -86,6 +86,101 @@ type cardDetails = {
 }
 type creditCard = cardDate & cardDetails & { isActive: true };
 ```
+#### Interface
+- An **interface** is a way to define the shape of an object. 
+- It is used to specify what properties and methods an object should have and their types, without providing any implementation.
+##### Syntax:
+```
+interface InterfaceName { 
+	propertyName: type; 
+	methodName(parameter: type): returnType; 
+}
+```
+##### Example:
+```
+interface Person { 
+	name: string; 
+	age: number; 
+	greet(): void; 
+}
+
+// using the interface
+const user: Person = { 
+	name: "Alice", 
+	age: 25, 
+	greet() { 
+		console.log("Hello, my name is " + this.name); 
+	}, 
+}; 
+user.greet(); // Output: Hello, my name is Alice
+```
+##### Key Features of Interfaces:
+**Optional Properties**: Use `?` to mark a property as optional.
+```
+interface Person { 
+	name: string; 
+	age?: number; // This property is optional 
+} 
+const user: Person = { name: "Alice" }; // Valid
+```
+**Readonly Properties**: Use `readonly` to make a property immutable.
+```
+interface Person {
+  readonly id: number;
+  name: string;
+}
+
+const user: Person = { id: 1, name: "Alice" };
+user.id = 2; // Error: Cannot assign to 'id' because it is a read-only property.
+
+```
+**Functions in Interfaces**: You can define methods (functions) directly in an interface.
+```
+interface Calculator {
+  add(a: number, b: number): number;
+  subtract(a: number, b: number): number;
+}
+
+const calculator: Calculator = {
+  add: (a, b) => a + b,
+  subtract: (a, b) => a - b,
+};
+```
+**Extending Interfaces**: You can create a new interface by extending an existing one.
+```
+// Syntax : interface Inter1 extends Inter2, Inter3{}
+
+interface Animal {
+  name: string;
+}
+
+interface Dog extends Animal {
+  breed: string;
+}
+
+const myDog: Dog = { name: "Buddy", breed: "Golden Retriever" };
+
+```
+**Reopening of the interface**
+```
+interface User{
+    fullname: String;
+    username: String;
+    password: String;
+}
+
+interface User{
+    isLoggedIn: boolean;
+}
+
+const newUser: User = {
+    fullname: "suraj gorai",
+    username: "surajgoraicse",
+    password: "3243dfdf",
+    isLoggedIn: false
+}
+```
+
 #### readonly and optional
 * If readonly value is an array then it will allow to push values into it.
 * 
@@ -174,3 +269,29 @@ let list: [string, ...number[]] = ["Numbers", 1, 2, 3, 4];
 
 ##### Problems in tuples
 * tuples does not restrict the following methods `push()`, `pop()`, `shift()`, `unshift()`, and `splice()` .
+
+#### Enum
+* An **enum** in TypeScript is a special data structure that allows you to define a set of named constants.
+
+##### Syntax:
+###### Numeric Enum (default numbering starts from 0): 
+```
+enum Direction {
+  Up,    // 0
+  Down,  // 1
+  Left,  // 2
+  Right  // 3
+}
+
+```
+String Enum:
+```
+enum Direction {
+  Up = "UP",
+  Down = "DOWN",
+  Left = "LEFT",
+  Right = "RIGHT"
+}
+
+```
+
