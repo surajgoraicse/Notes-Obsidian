@@ -7,4 +7,3 @@
 7. Create a index.html file in the root and link the script file.
 8. Run the ts file using watch mode : `tsc -w`
 	- This will keep on generating an equivalent js code.
-9. 

@@ -7,7 +7,12 @@ superHero.push("spiderman");
 
 const level: number[] = [1, 2, 3];
 level.push(3, 345, 45, 4, 54, 523);
+
+const stringOrNumber: string[]|number[]; //either string or number
+
+const data: (number | string | boolean)[] = [21, 3, 23, "car", "bike"]; // will take number, string and boolean
 ```
+
 **Array with Generic** 
 `const arrayName: Array<dataType> = [];`
 ```

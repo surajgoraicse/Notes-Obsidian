@@ -2,7 +2,7 @@
 TypeScript is a development tool which helps to write better code.
 
 
-#### Types:
+#### Types in TS:
 1. Primitives : string , number and boolean.
 2. Special Types : any, unknown, void, null, undefined, never.
 3. Complex Types : Arrays, Tuples.
@@ -214,6 +214,7 @@ let value: string | number;
 value = "Hello"; // valid 
 value = 42; // also valid
 ```
+
 union in type aliases:
 ```
 type Car = { make: string; model: string }; 
