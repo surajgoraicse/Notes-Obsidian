@@ -196,3 +196,101 @@ class Admin extends User{
 
 
 #### Getter and Setter
+#### Implements in Class using Interface
+- The `implements` keyword is used to enforce that a class follow strictly to the structure of an interface. 
+- It ensures that the class implements all the properties and methods defined in the interface. 
+- It helps in creating a strongly-typed, reusable code.
+##### Steps to use:
+1. Define interface:
+	- An interface is a contract that specifies the structure (properties and methods) that a class must implement.
+2. Use implements in the class:
+	- A class uses the `implements` keyword to declare that it will follow the interface's structure.
+	- A class can implement multiple interfaces by separating them with commas.
+##### Syntax:
+```
+interface Person {
+  name: string;
+  greet(): string;
+}
+
+interface Employee {
+  employeeId: number;
+  work(): string;
+}
+
+class Manager implements Person, Employee {
+  name: string;
+  employeeId: number;
+
+  constructor(name: string, employeeId: number) {
+    this.name = name;
+    this.employeeId = employeeId;
+  }
+
+  greet(): string {
+    return `Hi, I'm ${this.name}.`;
+  }
+
+  work(): string {
+    return `Managing employees with ID: ${this.employeeId}`;
+  }
+}
+
+const manager = new Manager("Bob", 101);
+console.log(manager.greet()); // Hi, I'm Bob.
+console.log(manager.work());  // Managing employees with ID: 101
+```
+
+#### Abstract Classes
+- An **abstract class** in TypeScript is a class that cannot be instantiated directly. 
+- It serves as a blueprint for other classes and often contains common properties or methods shared by its subclasses. 
+- Abstract classes are part of object-oriented programming (OOP) and are used to enforce structure while allowing subclasses to implement specific behavior.
+
+
+##### **Key Features of Abstract Classes**
+
+1. **Cannot Be Instantiated**:
+    - You cannot create an object of an abstract class.
+2. **Abstract Methods**:
+    - Defined in the abstract class but do not have an implementation. Subclasses must provide the implementation.
+    - Declared using the `abstract` keyword.
+3. **Can Have Concrete Methods**:
+    - An abstract class can also have methods with implementation that can be inherited by subclasses.
+4. **Can Include Properties**:
+    - Abstract classes can have properties with or without default values.
+
+##### Syntax:
+```
+abstract class Animal {
+  abstract makeSound(): void; // Abstract method
+
+  move(): void {
+    console.log("Moving..."); // method
+  }
+}
+
+class Dog extends Animal {  // sub-class
+  makeSound(): void {
+    console.log("Woof! Woof!");
+  }
+}
+
+const dog = new Dog();   // instance of the class
+dog.move(); // Output: Moving...
+dog.makeSound(); // Output: Woof! Woof!
+
+// const animal = new Animal(); // Error: Cannot create an instance of an abstract class.
+
+```
+
+
+
+##### Use Cases for Abstract Classes
+
+- **Common Behavior**:
+    - When multiple subclasses share some common functionality, abstract classes can provide a base implementation.
+- **Enforcing Structure**:
+    - Abstract methods enforce that subclasses must implement certain methods, ensuring consistency.
+- **Polymorphism**:
+    - Abstract classes enable polymorphism, allowing you to treat subclasses as their abstract superclass.
+
