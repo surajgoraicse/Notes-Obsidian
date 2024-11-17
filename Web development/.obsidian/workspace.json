@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TypeScript/5Class.md",
+                "file": "TypeScript/7Generics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5Class"
+              "title": "7Generics"
             }
           }
         ]
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TypeScript/5Class.md"
+                "file": "TypeScript/7Generics.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 5Class"
+              "title": "Outline of 7Generics"
             }
           }
         ],
@@ -164,8 +164,9 @@
   },
   "active": "0d883442ee905c99",
   "lastOpenFiles": [
-    "TypeScript/6ProjectSetup.md",
     "TypeScript/5Class.md",
+    "TypeScript/7Generics.md",
+    "TypeScript/6ProjectSetup.md",
     "TypeScript/1Fundamentals.md",
     "TypeScript/4Array.md",
     "TypeScript/3Object.md",
