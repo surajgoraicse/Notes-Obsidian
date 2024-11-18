@@ -1,5 +1,4 @@
 
-
 #### What is Type Narrowing in TypeScript?
 - **Type narrowing** is a process in TypeScript where the type of a variable is refined or restricted to a more specific type based on runtime checks. 
 - This allows TypeScript to provide better type safety and enable more accurate autocomplete suggestions during development.
