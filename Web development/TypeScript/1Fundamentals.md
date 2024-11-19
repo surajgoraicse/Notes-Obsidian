@@ -1,13 +1,15 @@
 #### Definitions
-TypeScript is a development tool which helps to write better code.
+TypeScript is a development tool which helps to write better javascript code.
 
 
 #### Types in TS:
-1. Primitives : string , number and boolean.
+1. Primitives : string , number, boolean, bigint and symbol.
 2. Special Types : any, unknown, void, null, undefined, never.
-3. Complex Types : Arrays, Tuples.
-4. Object Types : `let user: { name: string; age: number } = { name: "Alice", age: 25 };`
+3. Object Types : Arrays, Tuples, object, Record and Map/Set.
+4. User defined types : Interface,  Type Aliases, Enums, Union types, and Intersection types.
 #### Syntax:
+
+Primitive Types:
 let variableName : type = value;
 `let greeting: string = "Hello Suraj";`
 ```
@@ -15,6 +17,7 @@ let age: number = 25;
 let name: string = "Alice";
 let isStudent: boolean = true;
 ```
+
 
 #### When types are not recommended ?
 When values are assigned immediately then types are generally not recommended.
@@ -159,7 +162,6 @@ interface Dog extends Animal {
 }
 
 const myDog: Dog = { name: "Buddy", breed: "Golden Retriever" };
-
 ```
 **Reopening of the interface**
 ```
@@ -180,8 +182,18 @@ const newUser: User = {
     isLoggedIn: false
 }
 ```
+#### Difference between Type and Interface:
+| **Aspect**                | **Type**                                                                                               | **Interface**                                                                                                        |
+| ------------------------- | ------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------- |
+| **Definition**            | `type` is used to create type aliases for any type, such as primitives, unions, tuples, or objects.    | `interface` is used to define the structure or blueprint of objects, focusing on object shapes and behavior.         |
+| **Flexibility**           | Can represent complex types like unions, intersections, primitives, and arrays.                        | Primarily designed to define object structures but can also define callable types or indexable types.                |
+| **Use Cases**             | Works well for defining unions, tuples, or aliasing more complex types.                                | Ideal for object-oriented programming, where the focus is on designing the shape and behavior of objects.            |
+| **Extension/Inheritance** | Cannot use `extends`, but you can combine types using intersections (`&`). Example: `type A = B & C;`. | Can use the `extends` keyword to inherit properties from other interfaces. Example: `interface A extends B { }`.     |
+| **Declaration Merging**   | Does not support merging. If you declare `type A` twice, it results in an error.                       | Supports merging. If you declare `interface A` multiple times, TypeScript will merge their properties automatically. |
+| **Reusability**           | Can be reused with intersections for combining types, but lacks inheritance support.                   | More reusable in object-oriented designs due to inheritance and automatic merging.                                   |
+| **Usage for Functions**   | Functions can be represented as types, e.g., `type Add = (a: number, b: number) => number;`.           | Functions can also be defined in interfaces but are more common in `type`.                                           |
 
-#### readonly and optional
+#### readonly and optional.
 * If readonly value is an array then it will allow to push values into it.
 * 
 
@@ -294,7 +306,6 @@ enum Direction {
   Right = "RIGHT"
 }
 
+
 ```
 
-
-#### dfdf

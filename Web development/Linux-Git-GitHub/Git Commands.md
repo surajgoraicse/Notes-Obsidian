@@ -2,7 +2,7 @@
 1. ==`git init`== : Initiate a git repo.
 2. ==`git add <fileName>`== : Stages changes (new or modified files) in the working directory for the next commit.
 3. ==`git restore --staged <file>`== : Unstage the files. This will remove the file from the staging area, keeping the changes in the working directory but excluding them from the next commit. 
-4. ==`git restore <file>`== : It is used to discard local changes in a file that haven’t been staged yet. This command resets the file to match the latest commit in the current branch, effectively discarding any modifications you made in the working directory. ( It can be reversed with `Ctrl + Z` )
+4. ==`git restore <file>`== : It moves to the last staged state. It is used to discard local changes in a file that haven’t been staged yet. This command resets the file to match the latest commit in the current branch, effectively discarding any modifications you made in the working directory. ( It can be reversed with `Ctrl + Z` )
 5. ==`git status`== : Shows the current status of the working directory and staging area, including untracked, modified, or staged files.
 6. ==`git commit -m "message"`== : Records a snapshot of the staged changes in the repository’s history.
 #### Commit History
