@@ -6,4 +6,4 @@
 6. Configure tsconfig.js file by updating the output file location. Set the output location `outdir` to dist directory.
 7. Create a index.html file in the root and link the script file.
 8. Run the ts file using watch mode : `tsc -w`
-	- This will keep on generating an equivalent js code.
+	- This will keep on generating an equivalent js code. 

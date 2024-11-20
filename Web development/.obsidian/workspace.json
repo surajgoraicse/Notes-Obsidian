@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux-Git-GitHub/Git Commands.md",
+                "file": "TypeScript/6ProjectSetup.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Git Commands"
+              "title": "6ProjectSetup"
             }
           }
         ]
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux-Git-GitHub/Git Commands.md"
+                "file": "TypeScript/6ProjectSetup.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Git Commands"
+              "title": "Outline of 6ProjectSetup"
             }
           }
         ],
@@ -164,13 +164,13 @@
   },
   "active": "0d883442ee905c99",
   "lastOpenFiles": [
-    "Linux-Git-GitHub/Fundamentals.md",
+    "TypeScript/1Fundamentals.md",
     "Linux-Git-GitHub/Git Commands.md",
+    "Linux-Git-GitHub/Fundamentals.md",
     "JavaScript/Optional Chaining.md",
     "TypeScript/3Object.md",
     "JavaScript",
     "TypeScript/2Functions.md",
-    "TypeScript/1Fundamentals.md",
     "TypeScript/8Type Narrowing.md",
     "TypeScript/7Generics.md",
     "TypeScript/5Class.md",
