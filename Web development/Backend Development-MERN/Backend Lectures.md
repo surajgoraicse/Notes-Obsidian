@@ -1,5 +1,5 @@
 
-### Lecture 1 : Create a Backend Project.
+#### Lecture 1 : Create a Backend Project.
 
 ==`Step 1`== Initiate a node package
 
@@ -43,9 +43,9 @@ access env var:  console.log(process.env.VAR_NAME)
 
 ```
 
-### Lecture 2 : Connect Frontend and Backend
+#### Lecture 2 : Connect Frontend and Backend
 
-#### Backend
+##### Backend
 
 ```jsx
 // const express = require('express')
@@ -98,7 +98,7 @@ app.listen(port, () => {
     console.log(`server at <http://localhost>:${port}`);
 })
 ```
-#### Frontend
+##### Frontend
 
 ```jsx
 import { useEffect, useState } from "react";
@@ -140,6 +140,7 @@ export default App;
 
 ```
 
+Adding a proxy will fix CORS error:
 ```jsx
 // vite.config.js
 
@@ -151,13 +152,19 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      '/api' : "<http://localhost:3000/>"
+      '/api' : "http://localhost:3000"
     }
   }
 })
 
 ```
-### Lecture 3 : Mongoose Data Modelling
+#### Lecture 3 : Mongoose Data Modelling
+##### Make visual data modelling of how to store the data.
+![[Assets/model1.png]]
+![[Assets/model2.png]]
+
+##### Creating data modeling using mongoose.
+
 
 ### Lecture 4 
 

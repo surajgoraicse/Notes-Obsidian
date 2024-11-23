@@ -1,5 +1,5 @@
 #### Definitions
-TypeScript is a development tool which helps to write better javascript code.
+TypeScript is a development tool which helps to write better JavaScript code.
 
 
 #### Types in TS:
