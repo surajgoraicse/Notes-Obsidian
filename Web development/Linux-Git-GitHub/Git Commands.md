@@ -51,7 +51,12 @@
 17. ==`git branch -a`== : Lists all branches in both local and remote repositories.
 18. ==`git diff branch1 branch2`== : Shows the differences between two branches.
 19. ==`git stash branch branch_name`== : Creates a new branch from the most recent stash and applies the stash to it.
-20. 
+
+
+#### Git Remote
+
+1. git remote add origin <link> : Links a local repo to a remote repo.
+3. git remote set-url origin <new-repo-URL: Update the URL of the git remote.
 
 
 
