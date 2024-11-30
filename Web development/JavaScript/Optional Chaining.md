@@ -6,7 +6,7 @@
 The optional chaining operator (`?.`) is placed before a property, method, or array index.
 ```
 object?.property
-object?.method()
+object.method?.()
 object?.[index]
 ```
 

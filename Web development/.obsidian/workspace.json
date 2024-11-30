@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "cf18ff7fe8487bed",
+        "id": "d51a64b08ae6665a",
         "type": "tabs",
         "children": [
           {
-            "id": "7635416a6b0e26ab",
+            "id": "18069865f9a7c7bc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "JavaScript/Higher Order Function.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Higher Order Function"
             }
           }
         ]
@@ -134,9 +138,11 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {},
+              "state": {
+                "file": "JavaScript/Higher Order Function.md"
+              },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Higher Order Function"
             }
           }
         ],
@@ -156,14 +162,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7635416a6b0e26ab",
+  "active": "18069865f9a7c7bc",
   "lastOpenFiles": [
+    "Backend Development-MERN/Backend Lectures.md",
+    "JavaScript/Higher Order Function.md",
+    "JavaScript/Optional Chaining.md",
     "model2.png",
     "model1.png",
     "TypeScript/3Object.md",
     "TypeScript/2Functions.md",
     "Linux-Git-GitHub/Git Commands.md",
-    "Backend Development-MERN/Backend Lectures.md",
     "Assets/model2.png",
     "Assets/model1.png",
     "Assets",
@@ -174,7 +182,6 @@
     "TypeScript/6ProjectSetup.md",
     "TypeScript/7Generics.md",
     "TypeScript/8Type Narrowing.md",
-    "JavaScript/Optional Chaining.md",
     "JavaScript",
     "TypeScript/6ProjectStructure",
     "Welcome.md",
