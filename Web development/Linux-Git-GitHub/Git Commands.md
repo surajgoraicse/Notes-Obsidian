@@ -56,7 +56,7 @@
 #### Git Remote
 
 1. git remote add origin <link> : Links a local repo to a remote repo.
-3. git remote set-url origin <new-repo-URL: Update the URL of the git remote.
+3. git remote set-url origin <new-repo-URL>: Update the URL of the git remote.
 
 
 

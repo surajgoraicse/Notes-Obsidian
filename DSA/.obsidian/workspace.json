@@ -1,24 +1,36 @@
 {
   "main": {
-    "id": "821ff562038c0adb",
+    "id": "f8d2e8521f73bdf2",
     "type": "split",
     "children": [
       {
-        "id": "d51a64b08ae6665a",
+        "id": "cec2cb05abc94788",
         "type": "tabs",
         "children": [
           {
-            "id": "18069865f9a7c7bc",
+            "id": "4dcf32794a9f7364",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linux-Git-GitHub/Git Commands.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Git Commands"
+              "title": "New tab"
+            }
+          }
+        ]
+      },
+      {
+        "id": "26dbbfe2a56b3dfb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b6c6cfbd22757188",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -27,15 +39,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "1acb654591ee1c0c",
+    "id": "bfd02b1e75a876f4",
     "type": "split",
     "children": [
       {
-        "id": "014995509564f387",
+        "id": "759825825daf2e7b",
         "type": "tabs",
         "children": [
           {
-            "id": "cd491f99d75bb3fe",
+            "id": "dcd21297417ed4bc",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -47,7 +59,7 @@
             }
           },
           {
-            "id": "5199bb8cd3c03b96",
+            "id": "58c65338e7106ec7",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -64,7 +76,7 @@
             }
           },
           {
-            "id": "f3d221eeb12b2cd6",
+            "id": "078082679aa4c7f6",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -80,20 +92,19 @@
     "width": 300
   },
   "right": {
-    "id": "95640ea73b05ac1d",
+    "id": "0fee4542191cfd04",
     "type": "split",
     "children": [
       {
-        "id": "1a62597af1cc2f45",
+        "id": "22efd079aaa070cc",
         "type": "tabs",
         "children": [
           {
-            "id": "ae48b2a53dc4d369",
+            "id": "faeada53fa559e78",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Welcome.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,25 +114,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Welcome"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "8395ea5bf0d67b23",
+            "id": "cf154f089507454d",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Welcome.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Welcome"
+              "title": "Outgoing links"
             }
           },
           {
-            "id": "f0f83374d96ddded",
+            "id": "9b9f0b22491ea223",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -134,23 +144,23 @@
             }
           },
           {
-            "id": "4fb3ca31135d258a",
+            "id": "4c85e58a527885a6",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux-Git-GitHub/Git Commands.md"
+                "file": "Welcome.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Git Commands"
+              "title": "Outline of Welcome"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 335.5
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -162,35 +172,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "18069865f9a7c7bc",
+  "active": "dcd21297417ed4bc",
   "lastOpenFiles": [
-    "TypeScript/6ProjectSetup.md",
-    "TypeScript/5Class.md",
-    "TypeScript/1Fundamentals.md",
-    "JavaScript/Higher Order Function.md",
-    "JavaScript/Optional Chaining.md",
-    "Backend Development-MERN/Backend Lectures.md",
-    "model2.png",
-    "model1.png",
-    "TypeScript/3Object.md",
-    "TypeScript/2Functions.md",
-    "Linux-Git-GitHub/Git Commands.md",
-    "Assets/model2.png",
-    "Assets/model1.png",
     "Assets",
-    "Linux-Git-GitHub/Fundamentals.md",
-    "TypeScript/4Array.md",
-    "TypeScript/7Generics.md",
-    "TypeScript/8Type Narrowing.md",
-    "JavaScript",
-    "TypeScript/6ProjectStructure",
-    "Welcome.md",
-    "TypeScript",
-    "React/1. Fundamentals.md",
-    "Linux-Git-GitHub",
-    "React",
-    "Backend Development-MERN/Rec.md",
-    "Backend Development-MERN/Backend-Lectures",
-    "Backend Development-MERN"
+    "Welcome.md"
   ]
 }
