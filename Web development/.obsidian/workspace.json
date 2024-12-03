@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux-Git-GitHub/Git Commands.md",
+                "file": "Linux-Git-GitHub/Fundamentals.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Git Commands"
+              "title": "Fundamentals"
             }
           }
         ]
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux-Git-GitHub/Git Commands.md"
+                "file": "Linux-Git-GitHub/Fundamentals.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Git Commands"
+              "title": "Outline of Fundamentals"
             }
           }
         ],
@@ -164,6 +164,7 @@
   },
   "active": "18069865f9a7c7bc",
   "lastOpenFiles": [
+    "Linux-Git-GitHub/Git Commands.md",
     "TypeScript/6ProjectSetup.md",
     "TypeScript/5Class.md",
     "TypeScript/1Fundamentals.md",
@@ -174,7 +175,6 @@
     "model1.png",
     "TypeScript/3Object.md",
     "TypeScript/2Functions.md",
-    "Linux-Git-GitHub/Git Commands.md",
     "Assets/model2.png",
     "Assets/model1.png",
     "Assets",

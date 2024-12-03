@@ -11,7 +11,7 @@
 2. `ls -a` : lists **all files and directories** in the current directory, including **hidden files**.
 3. `ls fileName` : List files and directories in the specified directory. 
 4. 
-5. 
+
 
 ### Git commands:
 
