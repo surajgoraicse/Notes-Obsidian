@@ -1,6 +1,6 @@
 #### Thank the Interviewer:
 - Thank you for providing me with the opportunity to interview / introduce myself.
-- Good Morning sir / madam, first of all, thank you for this opportunity to introduce myself to you.
+- Good Morning sir / madam, first of all, thank you for providing this opportunity to introduce myself to you.
 
 #### Introduce Yourself
 - My name is Suraj Gorai and I am from Jamshepur, Jharkhand. I am a first-year BTech Computer Science student at Netaji Subhash University. 
