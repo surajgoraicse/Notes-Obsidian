@@ -13,8 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ChatGpt/Interview.md",
+                "file": "Interview/Interview.md",
                 "mode": "source",
+                "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
@@ -93,17 +94,17 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Welcome.md",
+                "file": "Interview/Interview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Welcome"
+              "title": "Backlinks for Interview"
             }
           },
           {
@@ -139,18 +140,18 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Welcome.md"
+                "file": "Interview/Interview.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Welcome"
+              "title": "Outline of Interview"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -162,10 +163,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "489316022448810c",
+  "active": "5eabf96ba48db697",
   "lastOpenFiles": [
+    "Interview",
     "ChatGpt/Prompts.md",
-    "ChatGpt/Interview.md",
+    "Interview/Interview.md",
     "Welcome.md",
     "ChatGpt"
   ]
