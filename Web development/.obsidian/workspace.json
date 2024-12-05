@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux-Git-GitHub/Fundamentals.md",
+                "file": "Backend Development-MERN/Backend Lectures.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Fundamentals"
+              "title": "Backend Lectures"
             }
           }
         ]
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux-Git-GitHub/Fundamentals.md"
+                "file": "Backend Development-MERN/Backend Lectures.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Fundamentals"
+              "title": "Outline of Backend Lectures"
             }
           }
         ],
@@ -162,14 +162,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "18069865f9a7c7bc",
+  "active": "cd491f99d75bb3fe",
   "lastOpenFiles": [
+    "Untitled 1",
+    "Backend Development-MERN/Lectures",
+    "JavaScript/Higher Order Function.md",
+    "JavaScript/Optional Chaining.md",
+    "React/1. Fundamentals.md",
+    "Linux-Git-GitHub/Fundamentals.md",
     "Linux-Git-GitHub/Git Commands.md",
     "TypeScript/6ProjectSetup.md",
     "TypeScript/5Class.md",
     "TypeScript/1Fundamentals.md",
-    "JavaScript/Higher Order Function.md",
-    "JavaScript/Optional Chaining.md",
     "Backend Development-MERN/Backend Lectures.md",
     "model2.png",
     "model1.png",
@@ -178,7 +182,6 @@
     "Assets/model2.png",
     "Assets/model1.png",
     "Assets",
-    "Linux-Git-GitHub/Fundamentals.md",
     "TypeScript/4Array.md",
     "TypeScript/7Generics.md",
     "TypeScript/8Type Narrowing.md",
@@ -186,7 +189,6 @@
     "TypeScript/6ProjectStructure",
     "Welcome.md",
     "TypeScript",
-    "React/1. Fundamentals.md",
     "Linux-Git-GitHub",
     "React",
     "Backend Development-MERN/Rec.md",
