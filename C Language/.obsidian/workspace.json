@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "font",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,8 +73,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -95,8 +94,8 @@
               "type": "backlink",
               "state": {
                 "file": "Docs/1Introduction.md",
-                "collapseAll": false,
-                "extraContext": false,
+                "collapseAll": true,
+                "extraContext": true,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
@@ -146,12 +145,12 @@
               "title": "Outline of 1Introduction"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -163,7 +162,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4cc8cd14a746e9de",
+  "active": "a41bdc0d3cb194dc",
   "lastOpenFiles": [
     "Assets/Untitled.md",
     "Docs/1Introduction.md",
