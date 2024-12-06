@@ -143,7 +143,6 @@ function printId(id: string | number | undefined) {
     console.log(id.toFixed(2)); // Narrowed to number
   }
 }
-
 ```
 ###### Discriminated Unions: 
 Discriminated unions are a pattern that uses a common property (discriminator) to distinguish between different types.

@@ -14,9 +14,9 @@
 6. ==`git shortlog`== : It gives a summary of commits grouped by authors.
 #### Commit Playground :
 1. ==`git reset <commit id>`==  :  Moves the current branch to a specified commit, and all the changes are now un-staged, allowing you to stage them into one commit or remove changes from the history. 
-		*  All the changes are now un-staged, so to move to the previous state use  ==`git restore <file>`== .
-1. ==`git reset --hard <commit_id>`== : Moves to the specified commit id. It is same as performing both git reset and restore.
-2. ==`git rebase i <commit id>`== :  ==Note==
+   All the changes are now un-staged, so to move to the previous state use  ==`git restore <file>`== .
+3. ==`git reset --hard <commit_id>`== : Moves to the specified commit id. It is same as performing both git reset and restore.
+4. ==`git rebase i <commit id>`== :  ==Note==
 #### Git Stash 
 * Stash means store (something) safely in a hidden or secret place.
 * `git stash` is a command that temporarily saves changes (tracked files) that you’ve made to your working directory but haven’t committed yet.

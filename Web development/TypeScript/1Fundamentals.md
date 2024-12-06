@@ -137,6 +137,7 @@ const user: Person = { id: 1, name: "Alice" };
 user.id = 2; // Error: Cannot assign to 'id' because it is a read-only property.
 
 ```
+
 **Functions in Interfaces**: You can define methods (functions) directly in an interface.
 ```
 interface Calculator {
