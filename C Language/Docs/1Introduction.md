@@ -131,7 +131,7 @@ Rules:
 - The constants refer to the variables with fixed values.
 - Constants should be initialized during declaration.
 
-#####  Strings:
+##### Strings:
 In **C programming**, a **string** is a sequence of characters stored in an array of characters. It is used to represent text and is typically terminated by a special null character (`'\0'`), which indicates the end of the string.
 
 ##### Special Symbols
