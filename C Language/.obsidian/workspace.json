@@ -1,24 +1,20 @@
 {
   "main": {
-    "id": "821ff562038c0adb",
+    "id": "ebc5e00e391766cb",
     "type": "split",
     "children": [
       {
-        "id": "d51a64b08ae6665a",
+        "id": "c67ad69fa100c1e3",
         "type": "tabs",
         "children": [
           {
-            "id": "18069865f9a7c7bc",
+            "id": "462b6417f1754151",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JavaScript/Optional Chaining.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Optional Chaining"
+              "title": "New tab"
             }
           }
         ]
@@ -27,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "1acb654591ee1c0c",
+    "id": "371692ca59722f52",
     "type": "split",
     "children": [
       {
-        "id": "014995509564f387",
+        "id": "9ac7597f32e81f8d",
         "type": "tabs",
         "children": [
           {
-            "id": "cd491f99d75bb3fe",
+            "id": "a41bdc0d3cb194dc",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -47,7 +43,7 @@
             }
           },
           {
-            "id": "5199bb8cd3c03b96",
+            "id": "4cc8cd14a746e9de",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -64,7 +60,7 @@
             }
           },
           {
-            "id": "f3d221eeb12b2cd6",
+            "id": "09bb347d555c26e5",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -80,20 +76,19 @@
     "width": 300
   },
   "right": {
-    "id": "95640ea73b05ac1d",
+    "id": "ec214e2fb631d970",
     "type": "split",
     "children": [
       {
-        "id": "1a62597af1cc2f45",
+        "id": "0d39ee4827f1e365",
         "type": "tabs",
         "children": [
           {
-            "id": "ae48b2a53dc4d369",
+            "id": "d2dd912978ec5e8e",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Welcome.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,25 +98,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Welcome"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "8395ea5bf0d67b23",
+            "id": "8805a8be6bd3ddd2",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Welcome.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Welcome"
+              "title": "Outgoing links"
             }
           },
           {
-            "id": "f0f83374d96ddded",
+            "id": "c54f7ee6ae501cca",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -134,23 +128,21 @@
             }
           },
           {
-            "id": "4fb3ca31135d258a",
+            "id": "852c1fc1dcb03a8a",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "JavaScript/Optional Chaining.md"
-              },
+              "state": {},
               "icon": "lucide-list",
-              "title": "Outline of Optional Chaining"
+              "title": "Outline"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 335.5
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -162,37 +154,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "18069865f9a7c7bc",
+  "active": "a41bdc0d3cb194dc",
   "lastOpenFiles": [
-    "JavaScript/Higher Order Function.md",
-    "Backend Development-MERN/Backend Lectures.md",
-    "Untitled 1",
-    "Backend Development-MERN/Lectures",
-    "JavaScript/Optional Chaining.md",
-    "React/1. Fundamentals.md",
-    "Linux-Git-GitHub/Fundamentals.md",
-    "Linux-Git-GitHub/Git Commands.md",
-    "TypeScript/6ProjectSetup.md",
-    "TypeScript/5Class.md",
-    "TypeScript/1Fundamentals.md",
-    "model2.png",
-    "model1.png",
-    "TypeScript/3Object.md",
-    "TypeScript/2Functions.md",
-    "Assets/model2.png",
-    "Assets/model1.png",
+    "Lectures",
     "Assets",
-    "TypeScript/4Array.md",
-    "TypeScript/7Generics.md",
-    "TypeScript/8Type Narrowing.md",
-    "JavaScript",
-    "TypeScript/6ProjectStructure",
-    "Welcome.md",
-    "TypeScript",
-    "Linux-Git-GitHub",
-    "React",
-    "Backend Development-MERN/Rec.md",
-    "Backend Development-MERN/Backend-Lectures",
-    "Backend Development-MERN"
+    "Welcome.md"
   ]
 }
