@@ -114,7 +114,8 @@ There are six types of tokens:
 
 ##### Keywords:
 - The keywords are pre-defined or reserved words in a programming language.
-- A variable cannot have the same name as reserved keyword.
+- These are part of the syntax and cannot be used as identifiers in the program.
+- 
 - There are 32 reserved keyword in C language.
 
 ##### Identifiers:
@@ -133,6 +134,14 @@ Rules:
 #####  Strings:
 In **C programming**, a **string** is a sequence of characters stored in an array of characters. It is used to represent text and is typically terminated by a special null character (`'\0'`), which indicates the end of the string.
 
+##### Special Symbols
+The following special symbols are used in C having some special meaning and thus, cannot be used for some other purpose. Some of these are listed below:
+- **Brackets[]:** 
+- **Parentheses():** 
+- **Braces{}:** 
+- **Comma (, ):***
+- **Colon(:):** 
 
-
+#####  Operators:
+Operators symbols that trigger an action when applied to C variables and other objects.
 
