@@ -52,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "font",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,7 +73,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -162,7 +163,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "462b6417f1754151",
+  "active": "4cc8cd14a746e9de",
   "lastOpenFiles": [
     "Assets/Untitled.md",
     "Docs/1Introduction.md",
