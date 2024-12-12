@@ -115,7 +115,6 @@ There are six types of tokens:
 ##### Keywords:
 - The keywords are pre-defined or reserved words in a programming language.
 - These are part of the syntax and cannot be used as identifiers in the program.
-- 
 - There are 32 reserved keyword in C language.
 
 ##### Identifiers:

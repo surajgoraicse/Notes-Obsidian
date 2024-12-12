@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docs/2Variables.md",
+                "file": "Docs/1Introduction.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2Variables"
+              "title": "1Introduction"
             }
           }
         ]
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docs/2Variables.md"
+                "file": "Docs/1Introduction.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 2Variables"
+              "title": "Outline of 1Introduction"
             }
           }
         ],
@@ -162,11 +162,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a41bdc0d3cb194dc",
+  "active": "462b6417f1754151",
   "lastOpenFiles": [
+    "Docs/2Variables.md",
     "Docs/1Introduction.md",
     "Assets/Untitled.md",
-    "Docs/2Variables.md",
     "Assets/dfdf.md",
     "Untitled",
     "Docs",
