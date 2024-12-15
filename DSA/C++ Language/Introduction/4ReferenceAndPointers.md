@@ -124,7 +124,8 @@ delete ptr;  // Memory is deallocated
 
 #### Array
 
-- The name of the array represent the memory address of the first element of the array.
+- The name of the array represent the memory address of the first element of the array. It is like a pointer. eg. if arr is an array then arr , arr + 1 , arr + i etc are pointers.
+- Dereferencing a array pointer using dereference operator ( * ).  : *arr , *(arr + 1 )        *(arr + i) etc.
 
 
 ```
@@ -133,7 +134,7 @@ int arr[] = {324,4,5,45,4,5234,32,4};
 cout<< arr <<endl;  // prints : memory address of first element of array
 cout<< arr + 1 <<endl; // prints memory address of second element
 
-cout<< *arr << endl; // prints first element
+cout<< *arr << endl; // dereferece or prints first element 
 cout<< *(arr + 1) << endl; // prints second element
 
 cout<< *arr + 1 << endl; // prints first element + 1
