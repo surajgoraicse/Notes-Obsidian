@@ -10,6 +10,7 @@
 - Function defined inside class are known as member functions.
 - Variable or attributes defined inside the class are known as member attributes.
 - Member functions and member attributes are collectively known as class members.
+- class should end with semi-colon. ( ; )
 
 example : 
 ```
@@ -22,6 +23,61 @@ class MyClass{
 			cout<< "name : "<< name<<endl;
 		}
 };
+```
+
+##### Member Function in C++ Classes
+- They are the function defined in the class.
+- It can be accessed by creating an object of class.
+
+###### There are 2 ways to define a member function
+- Inside class definition
+- Outside class definition
+Inline vs non-inline functions:
+Inline : Methods defined inside the class are called inline functions.
+**Non-inline** : Methods defined outside the class are called inline functions.
+**Non-inline** :  functions can be converted into inline methods by using inline keyword.
+syntax : 
+`inline void myFun() {  ... definition   }`
+  
+Example:
+```
+// C++ program to demonstrate member function
+// definition outside class
+#include <bits/stdc++.h>
+using namespace std;
+class Geeks {
+public:
+    string geekname;
+    int id;
+
+    // printname is not defined inside class definition
+    void printname();
+
+    // printid is defined inside class definition
+    void printid() { cout << "Geek id is: " << id; }
+};
+
+// Definition of printname using scope resolution operator
+// ::
+void Geeks::printname()
+{
+    cout << "Geekname is: " << geekname;
+}
+int main()
+{
+
+    Geeks obj1;
+    obj1.geekname = "xyz";
+    obj1.id = 15;
+
+    // call printname()
+    obj1.printname();
+    cout << endl;
+
+    // call printid()
+    obj1.printid();
+    return 0;
+}
 ```
 
 #### What is an object ?
@@ -49,8 +105,7 @@ obj.print();
 - They determine whether a class member can be accessed from outside the class, within the class, or in derived classes.
 
 
-There are 3 types of access specifiers:
-
+##### There are 3 types of access specifiers:
 1. **Public:** Members declared as public can be accessed from both inside and outside the class.
 2. **Private:** Members declared as private can only be accessed within the class.
 3. **Protected:** Members declared as protected can be accessed within the class and by derived classes.
