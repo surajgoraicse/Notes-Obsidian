@@ -176,10 +176,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dcd21297417ed4bc",
+  "active": "ca97e3b779364899",
   "lastOpenFiles": [
-    "C++ Language/Introduction/3Operators.md",
+    "C++ Language/DSA/Vector.md",
     "C++ Language/Object Oriented Programming/Introduction.md",
+    "C++ Language/DSA",
+    "C++ Language/Introduction/3Operators.md",
     "C++ Language/Object Oriented Programming",
     "C++ Language/Introduction/5Functions.md",
     "C++ Language/Introduction/4ReferenceAndPointers.md",
