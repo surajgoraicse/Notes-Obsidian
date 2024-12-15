@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++ Language/Introduction/3Operators.md",
+                "file": "C++ Language/Object Oriented Programming/Introduction.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3Operators"
+              "title": "Introduction"
             }
           }
         ],
@@ -153,10 +153,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++ Language/Introduction/3Operators.md"
+                "file": "C++ Language/Object Oriented Programming/Introduction.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 3Operators"
+              "title": "Outline of Introduction"
             }
           }
         ],
@@ -176,14 +176,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ca97e3b779364899",
+  "active": "dcd21297417ed4bc",
   "lastOpenFiles": [
+    "C++ Language/Introduction/3Operators.md",
+    "C++ Language/Object Oriented Programming/Introduction.md",
+    "C++ Language/Object Oriented Programming",
     "C++ Language/Introduction/5Functions.md",
     "C++ Language/Introduction/4ReferenceAndPointers.md",
     "C++ Language/Introduction/6Array.md",
     "C++ Language/Introduction/1Basic.md",
     "C++ Language/Introduction/2Basic.md",
-    "C++ Language/Introduction/3Operators.md",
     "C++ Language/Introduction/4TypeCasting.md",
     "Untitled.md",
     "C++ Language/Introduction",
