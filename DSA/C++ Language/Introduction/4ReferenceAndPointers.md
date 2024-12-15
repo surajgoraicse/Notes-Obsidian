@@ -1,7 +1,8 @@
-Pointers and References both are mechanisms used to deal with memory, memory address, and data in a program. Pointers are used to store the memory address of another variable whereas references are used to create an alias for an already existing variable.
+Pointers and References both are mechanisms used to deal with memory, memory address, and data in a program. 
+Pointers are used to store the memory address of another variable whereas references are used to create an alias for an already existing variable.
 
 
-#### Reference ( & address of)
+#### Reference ( & address of operator)
 When a variable is declared as a [reference](https://www.geeksforgeeks.org/references-in-cpp/), it becomes an alternative name for an existing variable.
 
 ```
@@ -122,7 +123,7 @@ delete ptr;  // Memory is deallocated
 ```
 
 
-#### Array
+#### Array Pointers
 
 - The name of the array represent the memory address of the first element of the array. It is like a pointer. eg. if arr is an array then arr , arr + 1 , arr + i etc are pointers.
 - Dereferencing a array pointer using dereference operator ( * ).  : *arr , *(arr + 1 )        *(arr + i) etc.
@@ -141,8 +142,6 @@ cout<< *(arr + 1) << endl; // prints second element
 // pointers arithemetic 
 cout<< *arr + 1 << endl; // prints first element + 1
 cout<< *(arr + 1) + 1 <<endl; // prints second element + 1
-
-
 ```
 
 
