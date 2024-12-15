@@ -1,5 +1,17 @@
 Operators are used to perform operations on variables and values.
 
+#### sizeof() operator: 
+- It returns the size of the variable in bytes.
+eg: 
+```
+int var = 34;
+cout<< sizeof(var); // output : 4
+
+string name = "suraj";
+cout<< sizeof(name);  // output : 5
+
+```
+
 
 #### Types of Operators:
 

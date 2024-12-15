@@ -195,3 +195,4 @@ The static scope applies to variables and functions declared with the static ke
 A namespace in C++ is a container that allows users to create a separate scope where the given variables are defined. It is used to avoid name conflicts and group related code together. These variables can be then accessed using their namespace name and scope resolution operator.
 
 
+
