@@ -1,7 +1,7 @@
 Pointers and References both are mechanisms used to deal with memory, memory address, and data in a program. Pointers are used to store the memory address of another variable whereas references are used to create an alias for an already existing variable.
 
 
-#### Reference 
+#### Reference ( & address of)
 When a variable is declared as a [reference](https://www.geeksforgeeks.org/references-in-cpp/), it becomes an alternative name for an existing variable.
 
 ```
@@ -137,8 +137,14 @@ cout<< arr + 1 <<endl; // prints memory address of second element
 cout<< *arr << endl; // dereferece or prints first element 
 cout<< *(arr + 1) << endl; // prints second element
 
+
+// pointers arithemetic 
 cout<< *arr + 1 << endl; // prints first element + 1
 cout<< *(arr + 1) + 1 <<endl; // prints second element + 1
 
 
 ```
+
+
+#### Character array.
+
