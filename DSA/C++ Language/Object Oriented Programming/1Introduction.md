@@ -107,7 +107,7 @@ obj.print();
 
 ##### There are 3 types of access specifiers:
 1. **Public:** Members declared as public can be accessed from both inside and outside the class.
-2. **Private:** Members declared as private can only be accessed within the class.
+2. **Private:** Members declared as private can only be accessed within the class. It is also the default access specifier.
 3. **Protected:** Members declared as protected can be accessed within the class and by derived classes.
 
 
