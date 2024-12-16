@@ -135,5 +135,43 @@ int main() {
 A ***copy constructor** is a type of constructor that initializes an object using another object of the same class. In simple terms, a constructor which creates an object by initializing it with an object of the same class, which has been created previously is known as a **copy constructor***.
 
 ```
-  
+#include<iostream>
+using namespace std;
+class Student {
+    int rno;
+    string name;
+    double fees;
+public:
+    // parameterised constructor
+    Student(int r, string na, double fe) {
+        cout << "Parameterized constructor executed" << endl;
+        rno = r;
+        name = na;
+        fees = fe;
+    }
+
+    // copy constructor
+    Student(Student& st) {
+        cout << "Copy constructor executed" << endl;
+        rno = st.rno;
+        name = st.name;
+        fees = st.fees;
+    }
+
+    void printDetails() {
+        cout << "Name : " << name << endl;
+        cout << "Roll number : " << rno << endl;
+        cout << "Fees : " << fees << endl;
+        cout << endl;
+    } 
+};
+
+int main() {
+    // creating object
+    Student st1(7, "Suraj", 40000.0);
+    Student st2(st1);
+    st1.printDetails();
+    st2.printDetails();
+    return 0;
+}
 ```
