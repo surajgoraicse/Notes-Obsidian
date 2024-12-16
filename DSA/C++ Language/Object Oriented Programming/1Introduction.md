@@ -10,7 +10,7 @@
 - Function defined inside class are known as member functions.
 - Variable or attributes defined inside the class are known as member attributes.
 - Member functions and member attributes are collectively known as class members.
-- class should end with semi-colon. ( ; )
+- Class name should be capitalized and class should end with semi-colon. ( ; )
 
 example : 
 ```
@@ -18,7 +18,7 @@ class MyClass{
 	public:
 		int num;  // attributes
 		int name;
-		void print(){   // fuctions
+		void print(){   // member fuctions
 			cout<< "number : " << num<<endl;
 			cout<< "name : "<< name<<endl;
 		}
