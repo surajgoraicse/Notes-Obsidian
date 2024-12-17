@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++ Language/Object Oriented Programming/4Friend.md",
+                "file": "C++ Language/Object Oriented Programming/1Introduction.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4Friend"
+              "title": "1Introduction"
             }
           }
         ],
@@ -153,10 +153,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++ Language/Object Oriented Programming/4Friend.md"
+                "file": "C++ Language/Object Oriented Programming/1Introduction.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 4Friend"
+              "title": "Outline of 1Introduction"
             }
           }
         ],
@@ -178,10 +178,10 @@
   },
   "active": "ca97e3b779364899",
   "lastOpenFiles": [
-    "C++ Language/Object Oriented Programming/3Destructor.md",
-    "C++ Language/Object Oriented Programming/4Friend.md",
     "C++ Language/Object Oriented Programming/2Constructor function.md",
     "C++ Language/Object Oriented Programming/1Introduction.md",
+    "C++ Language/Object Oriented Programming/3Destructor.md",
+    "C++ Language/Object Oriented Programming/4Friend.md",
     "C++ Language/DSA/Vector.md",
     "C++ Language/DSA",
     "C++ Language/Introduction/3Operators.md",
