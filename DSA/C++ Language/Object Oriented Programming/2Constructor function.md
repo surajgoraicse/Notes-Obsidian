@@ -38,6 +38,62 @@ int main() {
 }
 ```
 
+##### In constructors, there are two main ways to initialize members:
+1. Direct Assignment in the Constructor Body
+2. Member Initialization List ( more efficient )
+Syntax:
+```
+MyClass(int a, int b) { 
+x = a; // Assigning values inside the constructor body 
+y = b; 
+cout << "Constructor: x = " << x << ", y = " << y << endl; 
+}
+```
+
+```
+MyClass(int a, int b) : x(a), y(b) { // Member initialization list
+        cout << "Constructor: x = " << x << ", y = " << y << endl;
+}
+};
+```
+
+```
+#include <iostream>
+#include <string>
+using namespace std;
+
+class MyClass {
+private:
+    string name;
+    int* age;
+
+public:
+    // Constructor using member initialization list
+    MyClass(string n, int a) : name(n), age(new int(a)) {
+        cout << "Constructor: Name = " << name << ", Age = " << *age << endl;
+    }
+
+    // Destructor to release dynamically allocated memory
+    ~MyClass() {
+        delete age;
+        cout << "Destructor: Memory freed" << endl;
+    }
+
+    // Print details
+    void printDetails() const {
+        cout << "Name = " << name << ", Age = " << *age << endl;
+    }
+};
+
+int main() {
+    MyClass obj("Alice", 25);
+    obj.printDetails();
+    return 0;
+}
+
+```
+
+
 ##### Defining constructor function outside the class:
 Just like functions, constructors can also be defined outside the class. First, declare the constructor inside the class, and then define it outside of the class by specifying the name of the class, followed by the scope resolution `::` operator, followed by the name of the constructor (which is the same as the class):
 ```
@@ -114,10 +170,10 @@ public:
     string brand;
     string model;
     string year;
-    Car() {
-        brand = "Toyota";
-        model = "Fortuner";
-        year = "2025";
+    Car(string b , string m , int yr) {
+        brand = b;
+        model = m;
+        year = yr;
     }
     void printDetails() {
         cout << "Brand : " << brand << endl;
@@ -126,7 +182,7 @@ public:
     }
 };
 int main() {
-    Car myCar;
+    Car myCar("Toyota" , "Fortuner" , 2025 );
     myCar.printDetails();
 }
 ```

@@ -35,7 +35,7 @@ class MyClass{
 Inline vs non-inline functions:
 Inline : Methods defined inside the class are called inline functions.
 **Non-inline** : Methods defined outside the class are called inline functions.
-**Non-inline** :  functions can be converted into inline methods by using inline keyword.
+**Non-inline** functions can be converted into inline methods by using inline keyword.
 syntax : 
 `inline void myFun() {  ... definition   }`
   
@@ -90,6 +90,7 @@ An object is created from a class.
 ```
 Syntax :
 ClassName objectName;
+ClassName2 objectName(para1 , para2);
 ```
 
 ```

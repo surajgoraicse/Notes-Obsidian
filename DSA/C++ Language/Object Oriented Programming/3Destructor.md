@@ -15,7 +15,15 @@ A destructor function is called automatically when the object goes out of scope 
 3. Destructor is called when a block containing local variables ends.
 4. Destructor is called when a delete operator is called.
 
-
+#### Syntax:
+```
+class MyClass {
+public:
+    ~MyClass() {
+        // Destructor logic
+    }
+};
+```
 #### How to call destructors explicitly?
 **Destructor*** can also be called explicitly for an object. We can call the destructors explicitly using the following statement:
 ```
@@ -28,3 +36,59 @@ object_name.~class_name()
 - If we do not write our own destructor in class, the compiler creates a default destructor for us. 
 - **The default destructor works fine unless we have dynamically allocated memory or pointer in class.** 
 - When a class contains a pointer to memory allocated in the class, we should write a destructor to release memory before the class instance is destroyed. This must be done to avoid memory leaks.
+
+
+
+#### Example of a destructor :
+
+```
+#include <iostream>
+using namespace std;
+
+class MyClass {
+public:
+    MyClass() {
+        cout << "Constructor called!" << endl;
+    }
+
+    ~MyClass() {
+        cout << "Destructor called!" << endl;
+    }
+};
+
+int main() {
+    MyClass obj; // Constructor and destructor are automatically called
+    cout << "In main function" << endl;
+    return 0;
+}
+
+```
+
+#### Destructor for Dynamic Memory Management:
+
+```
+#include <iostream>
+using namespace std;
+
+class MyClass {
+private:
+    int* data;
+
+public:
+    MyClass(int value) {
+        data = new int(value); // Dynamically allocate memory
+        cout << "Constructor: Allocated memory for " << *data << endl;
+    }
+
+    ~MyClass() {
+        delete data; // Free the memory
+        cout << "Destructor: Freed memory" << endl;
+    }
+};
+
+int main() {
+    MyClass obj(42);
+    return 0;
+}
+
+```
