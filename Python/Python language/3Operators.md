@@ -64,3 +64,35 @@ Comparison operator returns either True or False.
 |and|Logical AND: True if both the operands are true|x and y|
 |or|Logical OR: True if either of the operands is true|x or y|
 |not|Logical NOT: True if the operand is false|not x|
+##### Precedence of Logical Operators in Python
+1. Logical not
+2. logical and
+3. logical or
+
+##### Example:
+```
+a = True
+b = False
+print(a and b)  # False
+print(a or b)   # True
+print(not a)    # False
+```
+
+
+#### Bitwise Operator
+
+|Operator|Description|Syntax|
+|---|---|---|
+|&|Bitwise AND|x & y|
+|\||Bitwise OR|x \| y|
+|~|Bitwise NOT|~x|
+|^|Bitwise XOR|x ^ y|
+|>>|Bitwise right shift|x>>|
+|<<|Bitwise left shift|x<<|
+##### The precedence of Bitwise Operators in Python is as follows:
+
+1. Bitwise NOT
+2. Bitwise Shift
+3. Bitwise AND
+4. Bitwise XOR
+5. Bitwise OR
