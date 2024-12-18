@@ -45,3 +45,22 @@ print (-5.0//2) #-3.0
 5. A – Addition (Addition and subtraction have the same precedence)
 6. S – Subtraction
 #### Comparison Operators
+
+Comparison operator returns either True or False.
+
+|Operator|Description|Syntax|
+|---|---|---|
+|>|Greater than: True if the left operand is greater than the right|x > y|
+|<|Less than: True if the left operand is less than the right|x < y|
+|==|Equal to: True if both operands are equal|x == y|
+|!=|Not equal to – True if operands are not equal|x != y|
+|>=|Greater than or equal to True if the left operand is greater than or equal to the right|x >= y|
+|<=|Less than or equal to True if the left operand is less than or equal to the right|x <= y|
+
+#### Logical Operators
+
+|Operator|Description|Syntax|
+|---|---|---|
+|and|Logical AND: True if both the operands are true|x and y|
+|or|Logical OR: True if either of the operands is true|x or y|
+|not|Logical NOT: True if the operand is false|not x|
