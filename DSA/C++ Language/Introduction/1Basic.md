@@ -9,7 +9,7 @@ Rules:
 - Case-Sensitive: Both lowercase and uppercase have different different meaning to the compiler.
 - It must not contain white space.
 #### What is Variable ?
-- A **variable in C** is a memory location with some name that helps store some form of data and retrieves it when required. 
+- A **variable in C++** is a memory location with some name that helps store some form of data and retrieves it when required. 
 
 
 #### Types of Variables

@@ -94,7 +94,7 @@
               "type": "backlink",
               "state": {
                 "file": "Python language/1fundamental.md",
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -145,12 +145,12 @@
               "title": "Outline of 1fundamental"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -162,7 +162,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dad187c3ddb9056f",
+  "active": "e02cd5884366c82d",
   "lastOpenFiles": [
     "Python language/1fundamental.md",
     "Python language",
