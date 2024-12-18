@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python language/2DataTypes.md",
+                "file": "Python language/3Operators.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2DataTypes"
+              "title": "3Operators"
             }
           }
         ]
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python language/2DataTypes.md"
+                "file": "Python language/3Operators.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 2DataTypes"
+              "title": "Outline of 3Operators"
             }
           }
         ],
@@ -164,9 +164,10 @@
   },
   "active": "dad187c3ddb9056f",
   "lastOpenFiles": [
+    "Python language/2DataTypes.md",
+    "Python language/3Operators.md",
     "Asset/strings.jpg",
     "Python language/1fundamental.md",
-    "Python language/2DataTypes.md",
     "Python language",
     "Welcome.md",
     "Asset"
