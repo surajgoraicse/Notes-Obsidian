@@ -10,11 +10,14 @@ y = 2.8  # float
 z = 1j   # complex
 ```
 
-##### Complex:
+
+##### complex:
 Complex numbers are written with a "j" as the imaginary part:
 ```
 x = 3+5j  
 y = 5j  
 z = -5j
+str = "23+343j"
+print(complex(str))
 ```
 
