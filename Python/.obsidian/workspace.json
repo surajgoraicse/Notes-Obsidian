@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python language/4Iteration.md",
+                "file": "Python language/DataTypes/Fundamentals.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4Iteration"
+              "title": "Fundamentals"
             }
           }
         ]
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python language/4Iteration.md"
+                "file": "Python language/DataTypes/Fundamentals.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of 4Iteration"
+              "title": "Outline of Fundamentals"
             }
           }
         ],
@@ -164,10 +164,12 @@
   },
   "active": "dad187c3ddb9056f",
   "lastOpenFiles": [
+    "Python language/6Functions.md",
+    "Python language/DataTypes/Fundamentals.md",
+    "Python language/4Iteration.md",
     "Python language/3Operators.md",
     "Python language/5UserInputAndOutput.md",
     "Python language/1fundamental.md",
-    "Python language/4Iteration.md",
     "Python language/DataTypes/String.md",
     "Python language/2ConditionStatement.md",
     "Python language/0BehindTheScene.md",
