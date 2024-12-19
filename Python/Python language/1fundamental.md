@@ -34,11 +34,9 @@ x, y, z = 1, 2.5, "Python"
 print(x, y, z)
 ```
 
+#### Scope :
 
-
-#### Scope
-
-##### Local Variables:
+##### Local Scope:
 Variables defined inside a function are local to that function.
 ```
 def f():
@@ -49,7 +47,7 @@ f()
 # print(a)  # This would raise an error since 'local_var' is not accessible outside the function
 ```
 
-##### Global Variables:
+##### Global Scope:
 Variables defined outside any function are global and can be accessed inside functions using the global` keyword.
 ```
 a = "I am global"
@@ -140,9 +138,10 @@ print(type(bool))
 **Casting** refers to converting one data type to another.
 Example:
 ```
-n = int(3.345) // 3
-m = bool("suraj) // True
-o = float(34) // 34.0
+n = int(3.345) # 3
+m = bool("suraj) # True
+o = float(34) # 34.0
+c = complex("23+34j")  # (23+34j)
  
 ```
 
@@ -167,6 +166,7 @@ del x
 #### User input:
 - The `input()` function reads a line of text entered by the user from the standard input (keyboard).
 - It always returns the input as a **string**.
+- Always cast the input variable to the desired type as it only returns string.
 
 Syntax:
 ```

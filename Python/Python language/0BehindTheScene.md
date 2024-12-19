@@ -5,7 +5,8 @@ You write Python code in `.py` files (human-readable).
 
 2.. **Compilation to Bytecode**:
 - Python **compiles** the source code into an intermediate representation called **bytecode**.
-- Bytecode is a low-level, platform-independent set of instructions stored in `.pyc` files (in the `__pycache__` directory).
+- Bytecode is a low-level, platform-independent set of instructions stored in `.pyc` files (in the `__pycache__` directory). 
+- Bytecode is not a machine code.
 - This step happens automatically when you run a Python script.
 - **Tools**: The `py_compile` module can explicitly compile `.py` files into `.pyc`.
 
