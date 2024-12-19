@@ -86,7 +86,7 @@ print(ord('c'))  // 99
 #### Formatting a String:
 String formatting in Python allows you to create strings with dynamic content by embedding variables, expressions, or values in a template string.
 
-1. Using f-strings:
+##### Using f-strings:
    This is the most modern and recommended way to format strings. You prefix the string with `f` and use curly braces `{}` to embed expressions or variables.
 
 ```
@@ -94,13 +94,19 @@ name = "suraj"
 email = "surajgoraicse@gmail.com"
 print(f"Hello my name is {name} and my email is {email}")
 ```
-2. Using str.format()
+##### Using str.format()
    This method allows you to insert values into placeholders marked by `{}`.
 ```
 name = "suraj"
 email = "surajgoraicse@gmail.com"
 print("Hello my name is {} and my email is {}".format(name,email))
 ```
+
+##### Using `%` Formatting:
+```
+print("My name is %s and I am %d years old." % (name, age))
+```
+
 
 #### ==`in`== keyword:
 The `in` keyword checks if a particular substring is present in a string or not.
