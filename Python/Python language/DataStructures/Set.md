@@ -103,6 +103,13 @@ There are several ways to join two or more sets in Python.
 - The `difference()` method keeps the items from the first set that are not in the other set(s).
 - The `symmetric_difference()` method keeps all items EXCEPT the duplicates.
 
+|**Method**|**Description**|**Example**|**Output**|
+|---|---|---|---|
+|`union()`|Combines all unique items from both sets.|`{1, 2}.union({2, 3})`|`{1, 2, 3}`|
+|`update()`|Adds all unique items from another set to the original set.|`s1 = {1, 2}; s1.update({2, 3})`|`s1 = {1, 2, 3}`|
+|`intersection()`|Keeps only items common to both sets.|`{1, 2, 3}.intersection({2, 3, 4})`|`{2, 3}`|
+|`difference()`|Keeps items in the first set that are not in others.|`{1, 2, 3}.difference({2, 3, 4})`|`{1}`|
+|`symmetric_difference()`|Keeps all items except those present in both sets.|`{1, 2, 3}.symmetric_difference({2, 3, 4})`|`{1, 4}`|
 ##### union:
 - The `union()` method returns a new set with all items from both sets.
 - We can also use the `|` operator instead of the `union()` method, and you will get the same result.
