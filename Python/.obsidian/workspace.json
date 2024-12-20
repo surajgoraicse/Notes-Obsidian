@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python language/DataStructures/Dictionary.md",
+                "file": "Python language/DataStructures/Set.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Dictionary"
+              "title": "Set"
             }
           }
         ]
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python language/DataStructures/Dictionary.md"
+                "file": "Python language/DataStructures/Set.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Dictionary"
+              "title": "Outline of Set"
             }
           }
         ],
@@ -150,7 +150,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 259.5
+    "width": 340.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -165,20 +165,22 @@
   "active": "dad187c3ddb9056f",
   "lastOpenFiles": [
     "Python language/DataStructures/List.md",
+    "Python language/DataStructures/Set.md",
+    "Python language/DataStructures/Tuples.md",
     "Python language/DataStructures/Dictionary.md",
+    "Python language/6Functions.md",
+    "Python language/5UserInputAndOutput.md",
+    "Python language/4Iteration.md",
+    "Python language/3Operators.md",
+    "Python language/2ConditionStatement.md",
+    "Python language/1fundamental.md",
+    "Python language/0BehindTheScene.md",
+    "Python language/DataTypes/String.md",
+    "Python language/DataTypes/Numbers.md",
     "Python language/DataTypes/Fundamentals.md",
     "Python language/DataStructures",
     "Python language/DataTypes/Escape sequence.md",
-    "Python language/DataTypes/String.md",
-    "Python language/5UserInputAndOutput.md",
-    "Python language/6Functions.md",
     "Python language/7ExceptionHandling.md",
-    "Python language/4Iteration.md",
-    "Python language/3Operators.md",
-    "Python language/1fundamental.md",
-    "Python language/2ConditionStatement.md",
-    "Python language/0BehindTheScene.md",
-    "Python language/DataTypes/Numbers.md",
     "Python language/2DataTypes.md",
     "Python language/DataTypes",
     "Asset/Pasted image 20241219091828.png",

@@ -59,11 +59,11 @@ Comparison operator returns either True or False.
 
 #### Logical Operators
 
-|Operator|Description|Syntax|
-|---|---|---|
-|and|Logical AND: True if both the operands are true|x and y|
-|or|Logical OR: True if either of the operands is true|x or y|
-|not|Logical NOT: True if the operand is false|not x|
+| Operator | Description                                        | Syntax  |
+| -------- | -------------------------------------------------- | ------- |
+| and      | Logical AND: True if both the operands are true    | x and y |
+| or       | Logical OR: True if either of the operands is true | x or y  |
+| not      | Logical NOT: True if the operand is false          | not x   |
 ##### Precedence of Logical Operators in Python
 1. Logical not
 2. logical and
