@@ -58,7 +58,7 @@ a = ['apple', 'banana', 'cherry']
 for item in a:
     print(item)
 ```
-#### Nested Lists and Multidimensional Lists
+#### Nested Lists and Multidimensional Lists:
 ```
 matrix = [
     [1, 2, 3],
