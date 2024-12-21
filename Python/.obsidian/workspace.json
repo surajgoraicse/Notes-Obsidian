@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python language/DataStructures/Tuples.md",
+                "file": "Python language/AdvanceConcept/Functions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tuples"
+              "title": "Functions"
             }
           }
         ]
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python language/DataStructures/Tuples.md"
+                "file": "Python language/AdvanceConcept/Functions.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Tuples"
+              "title": "Outline of Functions"
             }
           }
         ],
@@ -164,8 +164,10 @@
   },
   "active": "dad187c3ddb9056f",
   "lastOpenFiles": [
-    "Python language/DataStructures/Set.md",
     "Python language/DataStructures/Tuples.md",
+    "Python language/AdvanceConcept/Functions.md",
+    "Python language/AdvanceConcept",
+    "Python language/DataStructures/Set.md",
     "Python language/DataStructures/List.md",
     "Python language/DataStructures/Dictionary.md",
     "Python language/7ExceptionHandling.md",

@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interview/Introduction/Interview sample.md",
-                "mode": "preview",
+                "file": "ChatGpt/Coding Prompts.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Interview sample"
+              "title": "Coding Prompts"
             }
           }
         ]
@@ -140,10 +140,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Interview/Introduction/Interview sample.md"
+                "file": "ChatGpt/Coding Prompts.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Interview sample"
+              "title": "Outline of Coding Prompts"
             }
           }
         ],
@@ -165,11 +165,12 @@
   },
   "active": "489316022448810c",
   "lastOpenFiles": [
-    "Interview/Introduction/Elements of Introduction Speech.md",
+    "ChatGpt/Prompts.md",
+    "ChatGpt/Coding Prompts.md",
     "Interview/Introduction/Interview sample.md",
+    "Interview/Introduction/Elements of Introduction Speech.md",
     "Interview/Introduction",
     "Interview",
-    "ChatGpt/Prompts.md",
     "Welcome.md",
     "ChatGpt"
   ]
